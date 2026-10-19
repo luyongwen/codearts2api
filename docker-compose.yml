@@ -1,6 +1,6 @@
 services:
   codearts2api:
-    build: .
+    image: ghcr.io/luyongwen/codearts2api:latest
     container_name: codearts2api
     restart: unless-stopped
     ports:
